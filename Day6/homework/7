@@ -1,0 +1,13 @@
+""" 假设有一个班级的学生成绩数据，数据结构如下：
+	students = [
+		{'name': 'Alice', 'score':85},
+		{'name': 'Bob', 'score': 76"},
+		{'name': 'Charlie', 'score': 90},
+		{'name': 'David', 'score': 68}.
+		{'name': 'Evas', 'score': 92}
+	]
+请编写程序完成以下操作：
+～ 计算学生人数
+～ 计算班级总分和平均分
+～ 找出成绩最高和最低的学生"""
+

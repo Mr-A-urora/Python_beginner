@@ -1,0 +1,12 @@
+""" 假设有一个嵌套字典，表示学生的成绩数据，数据结构如下：
+	students = {
+		'Alice': {'Math': 85, 'English': 90, 'History': 78},
+		'Bob': {'Math': 76, 'English': 82, 'History': 88},
+		'Charlie': {'Math': 90, 'English': 92, 'History': 86},
+		'David': {'Math': 68, 'English': 72, 'History': 80},
+		'Eva': {'Math': 92, 'English': 88, 'History': 90}
+	}
+请编写程序完成以下操作：
+～ 打印每个学生的姓名和总分
+～ 打印每个学生的平均分 """
+  
