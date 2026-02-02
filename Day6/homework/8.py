@@ -10,4 +10,15 @@
 ～ 打印每个学生的姓名和总分
 ～ 打印每个学生的平均分 """
 
+students = {
+	'Alice': {'Math': 85, 'English': 90, 'History': 78},
+	'Bob': {'Math': 76, 'English': 82, 'History': 88},
+	'Charlie': {'Math': 90, 'English': 92, 'History': 86},
+	'David': {'Math': 68, 'English': 72, 'History': 80},
+	'Eva': {'Math': 92, 'English': 88, 'History': 90}
+}
 
+for name, scores in students.items():
+	total_score = sum(scores.values())
+	average_score = total_score / len(scores)
+	print(f"姓名: {name}, 总分: {total_score}, 平均分: {average_score:.2f}")
