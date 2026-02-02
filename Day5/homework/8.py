@@ -1,1 +1,5 @@
 # 将二维列表中所有元素放在一个新列表中，numbers = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+numbers = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+flattened_list = [num for sublist in numbers for num in sublist]
+print(flattened_list)

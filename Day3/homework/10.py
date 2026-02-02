@@ -3,3 +3,10 @@
 要求1：输入的长度必须是11位
 要求2：输入内容必须全部是数字
 要求3：前三位是133或153（电信号段）"""
+
+phone = input("请输入手机号：")
+
+if len(phone) == 11 and phone.isdigit() and phone[:3] in ['133', '153']:
+    print(True)
+else:
+    print(False)
